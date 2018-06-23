@@ -1,0 +1,37 @@
+{
+  "name": "sic-codes",
+  "version": "1.0.0",
+  "description": "Nature of business: Standard Industrial Classification (SIC) codes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muratyaman/sic-codes.git"
+  },
+  "keywords": [
+    "sic",
+    "sic",
+    "codes",
+    "standard",
+    "industrial",
+    "classification",
+    "nature",
+    "of",
+    "business",
+    "business",
+    "category"
+  ],
+  "author": "Haci Murat Yaman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muratyaman/sic-codes/issues"
+  },
+  "homepage": "https://github.com/muratyaman/sic-codes#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3"
+  }
+}

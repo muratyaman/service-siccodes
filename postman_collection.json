@@ -1,0 +1,157 @@
+{
+	"info": {
+		"_postman_id": "fb6f623e-3094-4a11-83fb-ba24a1ccdc5a",
+		"name": "SIC Codes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET /api/sic-codes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{host}}/api/sic-codes",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"sic-codes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /api/sic-code/divisions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{host}}/api/sic-codes/divisions",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"sic-codes",
+						"divisions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /api/sic-code/codes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{host}}/api/sic-codes/codes",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"sic-codes",
+						"codes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /api/sic-code/codes search term",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{host}}/api/sic-codes/codes?term=software",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"sic-codes",
+						"codes"
+					],
+					"query": [
+						{
+							"key": "term",
+							"value": "software"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /api/sic-code/sections",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{host}}/api/sic-codes/sections",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"sic-codes",
+						"sections"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /api/sic-code/sections/[letter]",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{host}}/api/sic-codes/sections/A",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"sic-codes",
+						"sections",
+						"A"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /api/sic-code/sections/[letter]/codes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{host}}/api/sic-codes/sections/B/codes",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"sic-codes",
+						"sections",
+						"B",
+						"codes"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
